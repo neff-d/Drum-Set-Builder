@@ -82,10 +82,10 @@ export default function FindDrums() {
                         {
                             drums?.map((drums: Drums, i: number) => (
                                 drums.type == category ?
-                                    <Grid item xs={4}>
+                                    <Grid key={i} item xs={4}>
                                     <DrumCard key={i} drumDetail={drums} />
                                     </Grid> :
-                                <div></div>
+                                <div key={i}></div>
                             ))
                         }
                         </Grid>

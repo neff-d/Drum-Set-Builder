@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 import { Drums } from "@/types/drums";
-import { DrumsContextProvider, useDrumsContext } from "@/context/drumContext";
+import { DrumsContextProvider } from "@/context/drumContext";
 
 import { useEffect, useState } from "react";
 
