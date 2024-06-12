@@ -61,7 +61,7 @@ export default function FindDrums() {
                                     Select Category...
                                 </InputLabel>
                                 <Select     
-                                    sx={{ color: 'white'}}
+                                    sx={{ color: 'white', border: '1px solid white'}}
                                     labelId="category-select-label"
                                     id="category-select"
                                     label="Category"
