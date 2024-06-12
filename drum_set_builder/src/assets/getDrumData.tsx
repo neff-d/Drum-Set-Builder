@@ -1,5 +1,5 @@
 import { Drums } from "@/types/drums";
-
+import { promises as fs } from "fs";
 import { db } from '../firebase';
 import { doc, setDoc } from 'firebase/firestore';
 
@@ -14,7 +14,6 @@ export default function getDrumData() {
 function writeDrumData(drums: Drums[]) {
     for (let i = 0; i < drums.length; i++) {
         setDoc(doc(db, "drums", i.toString()), drums[i]);
-        console.log(drums[i]);
     }
 }
 
@@ -190,11 +189,11 @@ const drumData: Drums[] = [
         "saved": false
     },
     {
-        "maker": "Paise",
+        "maker": "Paiste",
         "model": "Signature Dark Energy Mk I",
         "type": "Splash Cymbal",
         "material": "Proprietary Bronze",
-        "dimensions": "8 in.",
+        "dimensions": "10 in.",
         "imageUrl": "https://www.paiste.com/image/5748?ver=1593429202",
         "soundClipUrl": "https://www.paiste.com/sound/3217?t=1585317115",
         "saved": false

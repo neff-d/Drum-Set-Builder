@@ -9,41 +9,39 @@ import { db } from '../firebase';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 
 interface drumsContextProps {
-    drums: Drums[] | null,
+    drums: Drums[],
     getSaved: Function,
-    featured: Drums | null
 }
 
 const DrumsContext = createContext<drumsContextProps>({
-    drums: null,
+    drums: [],
     getSaved: () => {[]},
-    featured: null
-});
+})
 
-export  function DrumsContextProvider({children}: {children: ReactNode}) {
+export function DrumsContextProvider({children}: {children: ReactNode}) {
     const [drums, setDrums] = useState<Drums[]>([]);
-    const [featured, setFeatured] = useState<Drums | null>(null);
-
-    const drumCount = 10;
 
     useEffect(() => {
+        console.log(drums);
         if (drums) {
             setDrums(getDrums());
         }
-        if (!featured) {
-            setFeatured(drums[getRandomInt(drums.length)])
+        if (drums) {
+            writeDrums(drums);
         }
     }, [drums])
 
     useEffect(() => {
-        if (drums && drums.length == 0) {
+        if (drums.length == 0){
             initDrums();
         }
     }, [])
 
     async function initDrums() {
+        const drums = await readDrums();
         if (drums.length == 0) {
-            setDrums(getDrumData());
+            const drumData = getDrumData();
+            setDrums(drumData);
         }
         else {
             setDrums(drums);
@@ -58,8 +56,35 @@ export  function DrumsContextProvider({children}: {children: ReactNode}) {
         return drums.filter((drums: Drums) => drums.saved);
     }
 
+    function writeDrums(drums: Drums[]) {
+        for (let i = 0; i < drums.length; i++) {
+            setDoc(doc(db, "animals", i.toString()), drums[i]);
+        }
+    }
+
+    async function readDrums() {
+
+        let exists = true;
+        let counter = 0;
+        const drums = [];
+
+        while (exists) {
+            const docRef = doc(db, "drums", counter.toString());
+            const docSnap = await getDoc(docRef);
+
+            if (docSnap.exists()) {
+                drums.push(docSnap.data() as Drums);
+                counter++;
+            }
+            else {
+                exists = false;
+            }
+        }
+        return drums;
+    }
+
     return (
-        <DrumsContext.Provider value={{ drums: drums, getSaved: getSaved, featured: featured }}>
+        <DrumsContext.Provider value={{ drums: drums, getSaved: getSaved }}>
             {children}
         </DrumsContext.Provider>
     )
@@ -68,8 +93,4 @@ export  function DrumsContextProvider({children}: {children: ReactNode}) {
 
 export function useDrumsContext() {
     return useContext(DrumsContext);
-}
-
-function getRandomInt(max: number) {
-    return Math.floor(Math.random() * max);
 }

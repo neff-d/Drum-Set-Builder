@@ -1,21 +1,27 @@
 'use client';
 
 import NavBar from "./components/navbar";
-import { useDrumsContext } from "@/context/drumContext";
+import { useDrumsContext, DrumsContextProvider } from "@/context/drumContext";
+import { Drums } from "@/types/drums";
+import DrumCard from "./components/drumCard";
 import { useEffect } from "react";
 
 export default function Home() {
 
-  const { drums, featured } = useDrumsContext();
+  const { drums, getSaved } = useDrumsContext();
 
   useEffect(() => {
     console.log(drums);
   }, [drums])
 
   return (
+    <DrumsContextProvider>
     <main>
         <NavBar />
-
-      </main>
+      <div>
+        Welcome to the custom drumset builder!
+      </div>
+    </main>
+      </DrumsContextProvider>
   );
 }
