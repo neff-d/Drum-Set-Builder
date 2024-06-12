@@ -1,17 +1,21 @@
 'use client';
 
 import NavBar from "./components/navbar";
-import { DrumsContextProvider } from "@/context/drumsContext";
+import { useDrumsContext } from "@/context/drumContext";
+import { useEffect } from "react";
 
 export default function Home() {
+
+  const { drums, featured } = useDrumsContext();
+
+  useEffect(() => {
+    console.log(drums);
+  }, [drums])
+
   return (
-    <DrumsContextProvider>
-      <div>
+    <main>
         <NavBar />
-        <main>
-          Hello Final Project!
-        </main>
-      </div>
-    </DrumsContextProvider>
+
+      </main>
   );
 }

@@ -1,0 +1,202 @@
+[
+    {
+        "maker": "Tama",
+        "model": "Starclassic",
+        "type": "Bass Drum",
+        "material": "Maple",
+        "dimensions": "22 x 18 in.",
+        "imageUrl": "https://rvb-img.reverb.com/image/upload/s--7scacKyU--/f_auto,t_supersize/v1664541147/v7kjyemaabwkjqsxxqtm.png",
+        "soundClipUrl": "",
+        "saved": false
+    },
+    {
+        "maker": "Gretsch",
+        "model": "Renown",
+        "type": "Bass Drum",
+        "material": "Maple",
+        "dimensions": "20 x 16 in.",
+        "imageUrl": "https://www.gretschdrums.com/sites/default/files/drums/renown/kibo/add-ons/RN2-1620B-STB.png",
+        "soundClipUrl": "",
+        "saved": false
+    },
+    {
+        "maker": "Yamaha",
+        "model": "Stage Custom",
+        "type": "Bass Drum",
+        "material": "Birch",
+        "dimensions": "24 x 15 in.",
+        "imageUrl": "https://www.yamaha.com/yamahavgn/PIM/Images/gallery_06_6d85054372d8c95aced620e4ec7fd9e7_MEDPROC_.jpg",
+        "soundClipUrl": "",
+        "saved": false
+    },
+    {
+        "maker": "Ludwig",
+        "model": "Supraphonic Black Beauty",
+        "type": "Snare Drum",
+        "material": "Brass",
+        "dimensions": "14 x 8 in.",
+        "imageUrl": "https://www.ludwig-drums.com/application/files/5215/9664/6510/LB408.jpg",
+        "soundClipUrl": "",
+        "saved": false
+    },
+    {
+        "maker": "SONOR",
+        "model": "Kompressor",
+        "type": "Snare Drum",
+        "material": "Beech",
+        "dimensions": "13 x 7 in.",
+        "imageUrl": "https://www.sonor.com/import/import_files/11171101_KS1406SDW_front.jpg",
+        "soundClipUrl": "",
+        "saved": false
+    },
+    {
+        "maker": "Pork Pie",
+        "model": "Cherry Pie",
+        "type": "Snare Drum",
+        "material": "Cherry/Bubinga",
+        "dimensions": "13 x 7 in.",
+        "imageUrl": "https://porkpiedrums.com/wp-content/uploads/2014/12/usa-custom7x13-plux-cherry-ply-e1419731995614.jpg",
+        "soundClipUrl": "",
+        "saved": false
+    },
+    {
+        "maker": "DW",
+        "model": "Performance Series",
+        "type": "Snare Drum",
+        "material": "Maple",
+        "dimensions": "14 x 6.5 in.",
+        "imageUrl": "https://www.dwdrums.com/_next/image/?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0621%2F5027%2F9317%2Ffiles%2FDRPS6514SSTB_03864b89-8ca7-4027-b501-01f0b00c71b2.jpg%3Fv%3D1716972935&w=3840&q=75",
+        "soundClipUrl": "",
+        "saved": false
+    },
+    {
+        "maker": "Paiste",
+        "model": "2002",
+        "type": "Crash Cymbal",
+        "material": "CuSn8 Bronze",
+        "dimensions": "18 in.",
+        "imageUrl": "https://www.paiste.com/image/5788?ver=1593436034",
+        "soundClipUrl": "https://www.paiste.com/sound/3695?t=1585575257",
+        "saved": false
+    },
+    {
+        "maker": "Sabian",
+        "model": "AAX X-Plosion",
+        "type": "Crash Cymbal",
+        "material": "B20 Bronze",
+        "dimensions": "20 in.",
+        "imageUrl": "https://sabian.com/wp-content/uploads/cymbals/20_AAX_XPlosion_Crash_B_2.png",
+        "soundClipUrl": "https://sabian.com/wp-content/uploads/audio/21100_22087XB_lh.mp3",
+        "saved": false
+    },
+    {
+        "maker": "Zildjian",
+        "model": "K Custom Dark",
+        "type": "Crash Cymbal",
+        "material": "B20 Bronze",
+        "dimensions": "19 in.",
+        "imageUrl": "https://zildjian.com/cdn/shop/products/k0951-angle-shot_1_1500x.png?v=1684245429",
+        "soundClipUrl": "https://cdn.shopify.com/s/files/1/0729/7938/2564/files/k0951-16-k-custom-dark-crash-audio---hits.mp3",
+        "saved": false
+    },
+    {
+        "maker": "Meinl",
+        "model": "Byzance Extra Dry",
+        "type": "Crash Cymbal",
+        "material": "B20 Bronze",
+        "dimensions": "18 in.",
+        "imageUrl": "https://meinlcymbals.com/PIM/MeinlCymbals/_Update_03072020/image-thumb__29322__product-detail/B18EDTC_web_main@2x.webp",
+        "soundClipUrl": "",
+        "saved": false
+    },
+    {
+        "maker": "Paiste",
+        "model": "Signature Dark Energy Mk I",
+        "type": "Ride Cymbal",
+        "material": "Proprietary Bronze",
+        "dimensions": "22 in.",
+        "imageUrl": "https://www.paiste.com/image/4569?ver=1592833734",
+        "soundClipUrl": "https://www.paiste.com/sound/3185?t=1585315492",
+        "saved": false
+    },
+    {
+        "maker": "Sabian",
+        "model": "HH Raw Bell Dry Ride",
+        "type": "Ride Cymbal",
+        "material": "B20 Bronze",
+        "dimensions": "21 in.",
+        "imageUrl": "https://sabian.com/wp-content/uploads/cymbals/12172-21-inch-hh-raw-bell-dry-ride_full.png",
+        "soundClipUrl": "https://sabian.com/wp-content/uploads/audio/14100_12172_per.mp3",
+        "saved": false
+    },
+    {
+        "maker": "Paiste",
+        "model": "2002 Sound Edge",
+        "type": "Hi-hat Cymbals",
+        "material": "CuSn8 Bronze",
+        "dimensions": "13 in.",
+        "imageUrl": "https://www.paiste.com/image/5796?ver=1593437948",
+        "soundClipUrl": "https://www.paiste.com/sound/3734?t=1585575884",
+        "saved": false
+    },
+    {
+        "maker": "Sabian",
+        "model": "HHX Evolution",
+        "type": "Hi-hat Cymbals",
+        "material": "B20 Bronze",
+        "dimensions": "14 in.",
+        "imageUrl": "https://sabian.com/wp-content/uploads/cymbals/11402xeb-14-inch-hhx-evolution-hats_full.png",
+        "soundClipUrl": "https://sabian.com/wp-content/uploads/audio/5200_11402XEB_per.mp3",
+        "saved": false
+    },
+    {
+        "maker": "Zildjian",
+        "model": "K Custom Dark",
+        "type": "Hi-hat Cymbals",
+        "material": "B20 Bronze",
+        "dimensions": "14 in.",
+        "imageUrl": "https://zildjian.com/cdn/shop/products/k0940-angle-shot_1.png?v=1684245431&width=2200",
+        "soundClipUrl": "https://cdn.shopify.com/s/files/1/0729/7938/2564/files/k0943-14-k-custom-dark-hh-pr-audio---open-closed-pattern.mp3",
+        "saved": false
+    },
+    {
+        "maker": "Sabian",
+        "model": "AAX",
+        "type": "Splash Cymbal",
+        "material": "B20 Bronze",
+        "dimensions": "6 in.",
+        "imageUrl": "https://sabian.com/wp-content/uploads/2022/07/6_AAX_Splash_B_2.png",
+        "soundClipUrl": "https://sabian.com/wp-content/uploads/audio/3700_20605X_meh.mp3",
+        "saved": false
+    },
+    {
+        "maker": "Paise",
+        "model": "Signature Dark Energy Mk I",
+        "type": "Splash Cymbal",
+        "material": "Proprietary Bronze",
+        "dimensions": "8 in.",
+        "imageUrl": "https://www.paiste.com/image/5748?ver=1593429202",
+        "soundClipUrl": "https://www.paiste.com/sound/3217?t=1585317115",
+        "saved": false
+    },
+    {
+        "maker": "Sabian",
+        "model": "HHX",
+        "type": "China Cymbal",
+        "material": "B20 Bronze",
+        "dimensions": "18 in.",
+        "imageUrl": "https://sabian.com/wp-content/uploads/cymbals/11816xn-18-inch-hhx-chinese_full.png",
+        "soundClipUrl": "https://sabian.com/wp-content/uploads/audio/26000_11816XN_per.mp3",
+        "saved": false
+    },
+    {
+        "maker": "Zildjian",
+        "model": "A Custom",
+        "type": "China Cymbal",
+        "material": "B20 Bronze",
+        "dimensions": "18 in.",
+        "imageUrl": "https://zildjian.com/cdn/shop/products/a20529-angle-shot.png?v=1684245424",
+        "soundClipUrl": "https://cdn.shopify.com/s/files/1/0729/7938/2564/files/a20529-18-a-custom-china-a5.mp3",
+        "saved": false
+    }
+]

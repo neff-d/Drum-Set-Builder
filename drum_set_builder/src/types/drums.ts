@@ -1,9 +1,10 @@
 export type Drums = {
-    id: string,
     maker: string,
     model: string,
     type: string,
+    material: string,
     dimensions: string,
     imageUrl: string,
-    soundClipUrl: string
+    soundClipUrl: string,
+    saved: boolean
 }

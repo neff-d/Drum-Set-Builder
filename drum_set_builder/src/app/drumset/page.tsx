@@ -1,7 +1,7 @@
 'use client';
 
 import NavBar from "../components/navbar";
-import { DrumsContextProvider } from "@/context/drumsContext";
+import { DrumsContextProvider } from "@/context/drumContext";
 
 
 export default function Drumset() {

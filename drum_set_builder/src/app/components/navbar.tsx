@@ -17,7 +17,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-import { useDrumsContext } from "@/context/drumsContext";
+import { useDrumsContext } from "@/context/drumContext";
 
 export default function NavBar() {
 
